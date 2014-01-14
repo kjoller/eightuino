@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name logo)(type KiCad)(uri $KIPRJMOD/8uino.pretty)(options "")(descr "Eightuino logo"))
+  (lib (name pinheaders)(type KiCad)(uri $KIPRJMOD/pinheaders.pretty)(options "")(descr "Custom pinheaders"))
+)

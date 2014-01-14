@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CvPcb (2013-12-28 BZR 4579)-product date = tir 14 jan 2014 21:55:08 CET
+
+BeginCmp
+TimeStamp = /52B96FCB;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5293AF30;
+Reference = C1;
+ValeurCmp = CP1;
+IdModule  = Discret:C1V5H;
+EndCmp
+
+BeginCmp
+TimeStamp = /5293AF3D;
+Reference = C2;
+ValeurCmp = CP1;
+IdModule  = Discret:C1V5H;
+EndCmp
+
+BeginCmp
+TimeStamp = /528D0B0F;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /528D0B1E;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /528D0B2D;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B97A1F;
+Reference = C6;
+ValeurCmp = 22pF;
+IdModule  = Discret:C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B97A36;
+Reference = C7;
+ValeurCmp = 22pF;
+IdModule  = Discret:C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52963431;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = Connect:BARREL_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /528D1252;
+Reference = CON2;
+ValeurCmp = AVR-ISP-10;
+IdModule  = Connect:VASCH5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52926611;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /528CF67E;
+Reference = IC1;
+ValeurCmp = ATMEGA8-P;
+IdModule  = Sockets_DIP:DIP-28__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /528D00BE;
+Reference = P1;
+ValeurCmp = PowerPins;
+IdModule  = pinheaders:Pinrow_6p;
+EndCmp
+
+BeginCmp
+TimeStamp = /528CF788;
+Reference = P2;
+ValeurCmp = Analog;
+IdModule  = pinheaders:Pinrow_6p;
+EndCmp
+
+BeginCmp
+TimeStamp = /528CF85A;
+Reference = P3;
+ValeurCmp = Digital1;
+IdModule  = pinheaders:Pinrow_6p;
+EndCmp
+
+BeginCmp
+TimeStamp = /528CF84B;
+Reference = P4;
+ValeurCmp = Digital_2;
+IdModule  = pinheaders:Pinrow_8p;
+EndCmp
+
+BeginCmp
+TimeStamp = /528D107C;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52926621;
+Reference = R2;
+ValeurCmp = 150;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /528D1107;
+Reference = SW1;
+ValeurCmp = SW_PUSH_SMALL;
+IdModule  = Discret:SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5293AD98;
+Reference = U1;
+ValeurCmp = NCP1117ST33T3G;
+IdModule  = SMD_Packages:SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B979FE;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = Crystals:Crystal_HC49-U_Vertical_RevA_09Aug2010;
+EndCmp
+
+EndListe
