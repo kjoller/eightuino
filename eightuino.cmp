@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-12-28 BZR 4579)-product date = tir 14 jan 2014 21:55:08 CET
+Cmp-Mod V01 Created by CvPcb (2013-12-28 BZR 4579)-product date = tor 16 jan 2014 18:18:24 CET
 
 BeginCmp
 TimeStamp = /52B96FCB;
@@ -46,14 +46,21 @@ BeginCmp
 TimeStamp = /52B97A1F;
 Reference = C6;
 ValeurCmp = 22pF;
-IdModule  = Discret:C2;
+IdModule  = Capacitors:cnp_3mm_disc;
 EndCmp
 
 BeginCmp
 TimeStamp = /52B97A36;
 Reference = C7;
 ValeurCmp = 22pF;
-IdModule  = Discret:C2;
+IdModule  = Capacitors:cnp_3mm_disc;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D5AD93;
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = Discret:C1;
 EndCmp
 
 BeginCmp
@@ -61,13 +68,6 @@ TimeStamp = /52963431;
 Reference = CON1;
 ValeurCmp = BARREL_JACK;
 IdModule  = Connect:BARREL_JACK;
-EndCmp
-
-BeginCmp
-TimeStamp = /528D1252;
-Reference = CON2;
-ValeurCmp = AVR-ISP-10;
-IdModule  = Connect:VASCH5x2;
 EndCmp
 
 BeginCmp
@@ -88,28 +88,42 @@ BeginCmp
 TimeStamp = /528D00BE;
 Reference = P1;
 ValeurCmp = PowerPins;
-IdModule  = pinheaders:Pinrow_6p;
+IdModule  = Pinheaders:Pinrow_6p;
 EndCmp
 
 BeginCmp
 TimeStamp = /528CF788;
 Reference = P2;
 ValeurCmp = Analog;
-IdModule  = pinheaders:Pinrow_6p;
+IdModule  = Pinheaders:Pinrow_6p;
 EndCmp
 
 BeginCmp
 TimeStamp = /528CF85A;
 Reference = P3;
 ValeurCmp = Digital1;
-IdModule  = pinheaders:Pinrow_6p;
+IdModule  = Pinheaders:Pinrow_8p;
 EndCmp
 
 BeginCmp
 TimeStamp = /528CF84B;
 Reference = P4;
 ValeurCmp = Digital_2;
-IdModule  = pinheaders:Pinrow_8p;
+IdModule  = Pinheaders:Pinrow_6p;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D5A854;
+Reference = P5;
+ValeurCmp = Serial;
+IdModule  = pinheaders:Pinrow_6p;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D6FAC9;
+Reference = P6;
+ValeurCmp = ISP;
+IdModule  = Pin_Arrays:pin_array_3x2;
 EndCmp
 
 BeginCmp
@@ -123,7 +137,7 @@ BeginCmp
 TimeStamp = /52926621;
 Reference = R2;
 ValeurCmp = 150;
-IdModule  = Discret:R4;
+IdModule  = Discret:R1;
 EndCmp
 
 BeginCmp
@@ -134,7 +148,7 @@ IdModule  = Discret:SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp
-TimeStamp = /5293AD98;
+TimeStamp = /52D7F944;
 Reference = U1;
 ValeurCmp = NCP1117ST33T3G;
 IdModule  = SMD_Packages:SOT223;
