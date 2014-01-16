@@ -7,3 +7,6 @@ It is also cheap to build, as the board is less than the 5x5cm size required for
 
 The distance between the two rows of headers (17 mil) makes it suited for 5cm wide protoboards (which come very cheaply, as opposed to 'real' arduino proto-shields).
 
+The project sprang out of a wish to improve my very first project, the [Cheapuino]
+
+[Cheapuino]: http://lab.kjlr.dk/p/cheapuino
