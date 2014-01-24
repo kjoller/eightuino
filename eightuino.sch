@@ -45,17 +45,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_6 P2
-U 1 1 528CF788
-P 8650 3150
-F 0 "P2" V 8600 3150 60  0000 C CNN
-F 1 "Analog" V 8700 3150 60  0000 C CNN
-F 2 "~" H 8650 3150 60  0000 C CNN
-F 3 "~" H 8650 3150 60  0000 C CNN
-	1    8650 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_6 P4
 U 1 1 528CF84B
 P 8900 2450
@@ -69,12 +58,12 @@ $EndComp
 $Comp
 L CONN_8 P3
 U 1 1 528CF85A
-P 8650 3950
-F 0 "P3" V 8600 3950 60  0000 C CNN
-F 1 "Digital1" V 8700 3950 60  0000 C CNN
-F 2 "~" H 8650 3950 60  0000 C CNN
-F 3 "~" H 8650 3950 60  0000 C CNN
-	1    8650 3950
+P 8650 4150
+F 0 "P3" V 8600 4150 60  0000 C CNN
+F 1 "Digital1" V 8700 4150 60  0000 C CNN
+F 2 "~" H 8650 4150 60  0000 C CNN
+F 3 "~" H 8650 4150 60  0000 C CNN
+	1    8650 4150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -87,17 +76,6 @@ F 2 "~" H 4250 2250 60  0000 C CNN
 F 3 "~" H 4250 2250 60  0000 C CNN
 	1    4250 2250
 	-1   0    0    1   
-$EndComp
-$Comp
-L ATMEGA8-P IC1
-U 1 1 528CF67E
-P 6850 3300
-F 0 "IC1" H 6100 4600 40  0000 L BNN
-F 1 "ATMEGA8-P" H 7250 2000 40  0000 L BNN
-F 2 "DIL28" H 6850 3300 30  0000 C CIN
-F 3 "" H 6850 3300 60  0000 C CNN
-	1    6850 3300
-	1    0    0    -1  
 $EndComp
 $Comp
 L C C3
@@ -223,12 +201,12 @@ $EndComp
 $Comp
 L R R2
 U 1 1 52926621
-P 8250 4650
-F 0 "R2" V 8330 4650 40  0000 C CNN
-F 1 "150" V 8257 4651 40  0000 C CNN
-F 2 "~" V 8180 4650 30  0000 C CNN
-F 3 "~" H 8250 4650 30  0000 C CNN
-	1    8250 4650
+P 8150 4650
+F 0 "R2" V 8230 4650 40  0000 C CNN
+F 1 "150" V 8157 4651 40  0000 C CNN
+F 2 "~" V 8080 4650 30  0000 C CNN
+F 3 "~" H 8150 4650 30  0000 C CNN
+	1    8150 4650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -356,9 +334,9 @@ F 3 "" H 4900 1600 60  0000 C CNN
 	1    4900 1600
 	1    0    0    -1  
 $EndComp
-Text Label 5750 2900 2    60   ~ 0
+Text Label 7950 2800 0    60   ~ 0
 XTAL1
-Text Label 5750 3100 2    60   ~ 0
+Text Label 7950 2900 0    60   ~ 0
 XTAL2
 $Comp
 L CRYSTAL X1
@@ -471,9 +449,9 @@ F 3 "" H 5950 1500 60  0000 C CNN
 $EndComp
 Text Label 5950 1200 1    60   ~ 0
 DTR
-Text Label 7900 3600 0    60   ~ 0
+Text Label 7900 3800 0    60   ~ 0
 RX
-Text Label 7900 3700 0    60   ~ 0
+Text Label 7900 3900 0    60   ~ 0
 TX
 $Comp
 L CONN_3X2 P6
@@ -522,7 +500,7 @@ Text Label 7950 2600 0    60   ~ 0
 MISO
 Text Label 7950 2700 0    60   ~ 0
 SCK
-Text Label 5950 2200 1    60   ~ 0
+Text Label 6050 1800 0    60   ~ 0
 RST
 $Comp
 L GND #PWR17
@@ -539,10 +517,6 @@ Wire Wire Line
 	7250 4800 6850 4800
 Wire Wire Line
 	6850 4800 6850 5000
-Wire Wire Line
-	5800 3200 5800 2600
-Wire Wire Line
-	5950 1700 5950 2200
 Wire Wire Line
 	5950 1200 5950 1300
 Wire Wire Line
@@ -598,10 +572,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 3500 2300 2800
 Wire Wire Line
-	5750 3100 5950 3100
-Wire Wire Line
-	5750 2900 5950 2900
-Wire Wire Line
 	2100 1050 2100 900 
 Connection ~ 4900 1700
 Wire Wire Line
@@ -612,18 +582,10 @@ Wire Wire Line
 	2100 5350 2100 5250
 Wire Wire Line
 	2500 5350 2100 5350
-Wire Wire Line
-	8150 4900 8250 4900
-Wire Wire Line
-	8150 4800 8150 4900
-Wire Wire Line
-	8150 4400 8250 4400
 Connection ~ 3600 6400
 Connection ~ 4900 1900
 Wire Wire Line
-	4750 1700 4900 1700
-Wire Wire Line
-	5800 2600 5950 2600
+	4750 1700 5200 1700
 Connection ~ 2600 6400
 Wire Wire Line
 	2250 5150 2250 6400
@@ -642,15 +604,10 @@ Wire Wire Line
 Wire Wire Line
 	2500 5350 2500 6000
 Connection ~ 6850 4800
-Wire Wire Line
-	7650 4800 8150 4800
 Connection ~ 8150 2700
-Connection ~ 5950 2000
 Connection ~ 5700 2000
 Wire Wire Line
-	4600 2000 5950 2000
-Wire Wire Line
-	5600 1500 5700 1500
+	5200 1500 5700 1500
 Connection ~ 5450 2000
 Wire Wire Line
 	5250 2200 5250 2250
@@ -659,39 +616,26 @@ Wire Wire Line
 	4900 2100 4600 2100
 Connection ~ 4900 2200
 Wire Wire Line
-	4900 2200 4600 2200
+	4600 2200 5100 2200
 Connection ~ 4700 2400
 Wire Wire Line
 	4700 2300 4600 2300
-Connection ~ 5600 2400
-Connection ~ 5300 2500
 Wire Wire Line
 	4700 2300 4700 2650
 Wire Wire Line
 	4600 2400 4700 2400
-Connection ~ 5600 1900
 Wire Wire Line
 	4900 1600 4900 2800
 Wire Wire Line
-	5100 2400 5100 2800
-Wire Wire Line
-	5950 2400 5100 2400
+	5100 2200 5100 2800
 Wire Wire Line
 	5300 2500 5300 2800
-Connection ~ 5100 3200
-Connection ~ 5300 3200
-Wire Wire Line
-	4900 3200 5800 3200
 Wire Wire Line
 	4900 3200 4900 3300
 Wire Wire Line
 	5100 3200 5100 3300
 Wire Wire Line
 	5300 3200 5300 3300
-Wire Wire Line
-	4600 2500 5950 2500
-Wire Wire Line
-	5600 1500 5600 2400
 Wire Wire Line
 	8550 2200 7850 2200
 Wire Wire Line
@@ -717,24 +661,6 @@ Wire Wire Line
 Wire Wire Line
 	8300 3800 7850 3800
 Wire Wire Line
-	8300 3700 7850 3700
-Wire Wire Line
-	8300 3600 7850 3600
-Wire Wire Line
-	8300 3400 7850 3400
-Wire Wire Line
-	8300 3300 7850 3300
-Wire Wire Line
-	8300 3200 7850 3200
-Wire Wire Line
-	8300 3100 7850 3100
-Wire Wire Line
-	8300 3000 7850 3000
-Wire Wire Line
-	8300 2900 7850 2900
-Wire Wire Line
-	4900 1900 6850 1900
-Wire Wire Line
 	2250 6400 2700 6400
 $Comp
 L NCP1117ST33T3G U1
@@ -747,4 +673,122 @@ F 3 "" H 3100 6450 60  0000 C CNN
 	1    3100 6450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8300 4400 8300 4350
+Wire Wire Line
+	8300 4350 7950 4350
+Wire Wire Line
+	7950 4350 7950 4400
+Wire Wire Line
+	7950 4400 7850 4400
+Wire Wire Line
+	8150 4900 7650 4900
+Wire Wire Line
+	7650 4900 7650 4800
+Wire Wire Line
+	8300 4500 8250 4500
+Wire Wire Line
+	8250 4500 8250 4450
+Wire Wire Line
+	8250 4450 8000 4450
+Wire Wire Line
+	8000 4450 8000 4500
+Wire Wire Line
+	8000 4500 7850 4500
+Wire Wire Line
+	7850 3050 8900 3050
+Wire Wire Line
+	7850 3150 8900 3150
+Wire Wire Line
+	7850 3250 8900 3250
+Wire Wire Line
+	7850 3350 8900 3350
+Wire Wire Line
+	7850 3450 8900 3450
+Wire Wire Line
+	7850 3550 8900 3550
+Wire Wire Line
+	6050 1800 5950 1800
+Connection ~ 5950 1800
+Wire Wire Line
+	5950 2000 4600 2000
+Wire Wire Line
+	5950 1700 5950 2000
+Wire Wire Line
+	7950 2800 7850 2800
+Wire Wire Line
+	7950 2900 7850 2900
+Text Label 7900 3650 0    60   ~ 0
+RST
+Wire Wire Line
+	7900 3650 7850 3650
+Wire Wire Line
+	5300 2800 5950 2800
+Wire Wire Line
+	5300 2500 4600 2500
+$Comp
+L ATMEGA328P-A IC?
+U 1 1 52E2E72B
+P 6850 3300
+F 0 "IC?" H 6100 4550 40  0000 L BNN
+F 1 "ATMEGA328P-A" H 7250 1900 40  0000 L BNN
+F 2 "TQFP32" H 6850 3300 30  0000 C CIN
+F 3 "" H 6850 3300 60  0000 C CNN
+	1    6850 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2500 5450 2500
+Wire Wire Line
+	5450 2500 5450 2600
+Wire Wire Line
+	5450 2600 5100 2600
+Connection ~ 5100 2600
+Wire Wire Line
+	5200 1700 5200 1500
+$Comp
+L VCC #PWR?
+U 1 1 52E2F21D
+P 5850 2150
+F 0 "#PWR?" H 5850 2250 30  0001 C CNN
+F 1 "VCC" H 5850 2250 30  0000 C CNN
+F 2 "" H 5850 2150 60  0000 C CNN
+F 3 "" H 5850 2150 60  0000 C CNN
+	1    5850 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2200 5850 2200
+Wire Wire Line
+	5850 2150 5850 2300
+Wire Wire Line
+	5850 2300 5950 2300
+Connection ~ 5850 2200
+$Comp
+L CONN_8 P?
+U 1 1 52E2F32E
+P 9250 3400
+F 0 "P?" V 9200 3400 60  0000 C CNN
+F 1 "Analog" V 9300 3400 60  0000 C CNN
+F 2 "" H 9250 3400 60  0000 C CNN
+F 3 "" H 9250 3400 60  0000 C CNN
+	1    9250 3400
+	1    0    0    -1  
+$EndComp
+Text Label 8800 3650 2    60   ~ 0
+ADC6
+Text Label 8800 3750 2    60   ~ 0
+ADC7
+Wire Wire Line
+	8900 3750 8800 3750
+Wire Wire Line
+	8900 3650 8800 3650
+Text Label 5850 3550 2    60   ~ 0
+ADC6
+Text Label 5850 3650 2    60   ~ 0
+ADC7
+Wire Wire Line
+	5950 3550 5850 3550
+Wire Wire Line
+	5950 3650 5850 3650
 $EndSCHEMATC
