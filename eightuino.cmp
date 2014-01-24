@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-12-28 BZR 4579)-product date = tor 16 jan 2014 18:18:24 CET
+Cmp-Mod V01 Created by CvPcb (2013-12-28 BZR 4579)-product date = fre 24 jan 2014 23:53:08 CET
 
 BeginCmp
 TimeStamp = /52B96FCB;
@@ -11,56 +11,56 @@ BeginCmp
 TimeStamp = /5293AF30;
 Reference = C1;
 ValeurCmp = CP1;
-IdModule  = Discret:C1V5H;
+IdModule  = Capacitors_SMD:c_tant_A;
 EndCmp
 
 BeginCmp
 TimeStamp = /5293AF3D;
 Reference = C2;
 ValeurCmp = CP1;
-IdModule  = Discret:C1V5H;
+IdModule  = Capacitors_SMD:c_tant_A;
 EndCmp
 
 BeginCmp
 TimeStamp = /528D0B0F;
 Reference = C3;
 ValeurCmp = 100nF;
-IdModule  = Discret:C1;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /528D0B1E;
 Reference = C4;
 ValeurCmp = 100nF;
-IdModule  = Discret:C1;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /528D0B2D;
 Reference = C5;
 ValeurCmp = 100nF;
-IdModule  = Discret:C1;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52B97A1F;
 Reference = C6;
 ValeurCmp = 22pF;
-IdModule  = Capacitors:cnp_3mm_disc;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52B97A36;
 Reference = C7;
 ValeurCmp = 22pF;
-IdModule  = Capacitors:cnp_3mm_disc;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D5AD93;
 Reference = C8;
 ValeurCmp = 100nF;
-IdModule  = Discret:C1;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
@@ -74,14 +74,14 @@ BeginCmp
 TimeStamp = /52926611;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-3MM;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /528CF67E;
+TimeStamp = /52E2E72B;
 Reference = IC1;
-ValeurCmp = ATMEGA8-P;
-IdModule  = Sockets_DIP:DIP-28__300_ELL;
+ValeurCmp = ATMEGA328P-A;
+IdModule  = SMD_Packages:TQFP32;
 EndCmp
 
 BeginCmp
@@ -92,10 +92,10 @@ IdModule  = Pinheaders:Pinrow_6p;
 EndCmp
 
 BeginCmp
-TimeStamp = /528CF788;
+TimeStamp = /52E2F32E;
 Reference = P2;
 ValeurCmp = Analog;
-IdModule  = Pinheaders:Pinrow_6p;
+IdModule  = pinheaders:Pinrow_8p;
 EndCmp
 
 BeginCmp
@@ -130,14 +130,14 @@ BeginCmp
 TimeStamp = /528D107C;
 Reference = R1;
 ValeurCmp = 10k;
-IdModule  = Discret:R3;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
 EndCmp
 
 BeginCmp
 TimeStamp = /52926621;
 Reference = R2;
 ValeurCmp = 150;
-IdModule  = Discret:R1;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
 EndCmp
 
 BeginCmp
