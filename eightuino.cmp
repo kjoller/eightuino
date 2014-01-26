@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-12-28 BZR 4579)-product date = fre 24 jan 2014 23:53:08 CET
+Cmp-Mod V01 Created by CvPcb (2014-01-25 BZR 4633)-product date = søn 26 jan 2014 16:31:35 CET
 
 BeginCmp
 TimeStamp = /52B96FCB;
@@ -11,55 +11,69 @@ BeginCmp
 TimeStamp = /5293AF30;
 Reference = C1;
 ValeurCmp = CP1;
-IdModule  = Capacitors_SMD:c_tant_A;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering_RevA_28Aug2012;
 EndCmp
 
 BeginCmp
 TimeStamp = /5293AF3D;
 Reference = C2;
 ValeurCmp = CP1;
-IdModule  = Capacitors_SMD:c_tant_A;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering_RevA_28Aug2012;
 EndCmp
 
 BeginCmp
-TimeStamp = /528D0B0F;
-Reference = C3;
-ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /528D0B1E;
+TimeStamp = /52E52519;
 Reference = C4;
-ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:c_0805;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:c_1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /528D0B2D;
+TimeStamp = /52E52C09;
 Reference = C5;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52B97A1F;
+TimeStamp = /528D0B0F;
 Reference = C6;
-ValeurCmp = 22pF;
+ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52B97A36;
+TimeStamp = /528D0B1E;
 Reference = C7;
-ValeurCmp = 22pF;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /528D0B2D;
+Reference = C8;
+ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D5AD93;
-Reference = C8;
+Reference = C9;
 ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B97A36;
+Reference = C10;
+ValeurCmp = 22pF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B97A1F;
+Reference = C11;
+ValeurCmp = 22pF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
@@ -82,6 +96,13 @@ TimeStamp = /52E2E72B;
 Reference = IC1;
 ValeurCmp = ATMEGA328P-A;
 IdModule  = SMD_Packages:TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E52539;
+Reference = L1;
+ValeurCmp = BEAD;
+IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering_RevA_Date21Jun2010;
 EndCmp
 
 BeginCmp
